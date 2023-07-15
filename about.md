@@ -52,8 +52,8 @@ key: page-about
 				<div class="sticky-top sticky-top-80">
 					<div class="text-center">
 						<a href="https://www.linkedin.com/in/rutu-mulkar/"><img src="assets/images/logo_linkedin.png" width="30px"/></a>
-						<a href="https://twitter.com/rutumulkar"><img src="{{ site.url}}/assets/images/logo_twitter.png" width="30px"/></a>
-						<a href="https://github.com/rutum"><img src="{{ site.url}}/assets/images/logo_github.png" width="30px"/></a>
+						<a href="https://twitter.com/rutumulkar"><img src="assets/images/logo_twitter.png" width="30px"/></a>
+						<a href="https://github.com/rutum"><img src="assets/images/logo_github.png" width="30px"/></a>
 					</div>
 				</div>
 			</div>
