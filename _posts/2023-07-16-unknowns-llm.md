@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The unkowns of LLMs
+title: The Unkowns of LLMs
 tags: llm ml deep-learning
 categories: [llm, ml, deep-learning]
 ---
