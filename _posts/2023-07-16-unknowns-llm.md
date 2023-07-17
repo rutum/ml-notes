@@ -59,7 +59,7 @@ One of the ongoing limitations and unknowns with LLMs, is the inability to have 
 
 Deep Learning has come a long way in the past few years, but there are several unknowns in this space that we need to continue to deep dive and learn. 
 
-## **References:**
+## References
 
 (Azaria and Mitchell, 2023) A Azaria, T Mitchell, [The internal state of an **llm** knows when its lying](https://arxiv.org/abs/2304.13734),  - arXiv preprint arXiv:2304.13734, 2023 - [arxiv.org](http://arxiv.org/)
 
