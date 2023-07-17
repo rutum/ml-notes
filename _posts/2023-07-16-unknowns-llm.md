@@ -1,6 +1,6 @@
 ---
 layout: page
-title: The Unkowns of LLMs
+title: What we do not know about LLMs
 tags: llm ml deep-learning
 categories: [llm, ml, deep-learning]
 ---
@@ -8,16 +8,6 @@ categories: [llm, ml, deep-learning]
 Although Deep Learning in general and Transformers in particular have made tremendous strides in applications and downstream tasks (such as Question Answering, Text Summarization, object detection etc.), there are still a lot of gaps in our understanding and effectiveness of Deep Learning and in particular in LLMs. For instance, Generative Large Language Models (LLMs) often hallucinate and produce incorrect content (we don’t know why they do this or how to stop it), Pre-trained Deep Learning Models get outdated and cannot be supplemented with new information (each of them has a checkpoint at which the pre-training stops), Models exhibit biases they they inherit from their training data (we don’t know how to find that bias and mitigate it in the model), and models are still extremely challenging to evaluate. This field is massive, and my research below is a small drop in the bucket as compared to the exponential number of papers that have been published on this topic within the past year. In 2018, before the advent of LLMs as they are today, (Marcus 2018) wrote about the limitations of deep learning, several of which are probably not transferrable to the LLMs of today’s world. There have been several other papers that have highlighted the risks and limitations of LLMs as they exist today - including [the stochastic parrots paper](https://dl.acm.org/doi/pdf/10.1145/3442188.3445922) (Bender and at. al. 2021), the foundation models report (Bommasani et. al. , 2021), and [DeepMind’s paper on ethical and social harms](https://arxiv.org/pdf/2112.04359.pdf). 
 
 In this doc, I will focus on the unknowns and risks with LLMs as it pertains to some high level topics, with a few selected papers in each space. These are a small list of limitations and unknowns with LLMs (the latest form of Deep Learning), but there are certainly others - such as reducing data and resource dependencies, performing domain adaptation of a model etc. 
-<!-- 
-1. [Disinformation, Hallucinations and Reliability of Models](https://quip-amazon.com/5hX0AJ6yrmVC/Deep-learning-Literature-Review-b-WIP#temp:C:ETM22e72572958546ffaa81628d4)
-2. [Biases in Deep Learning](https://quip-amazon.com/5hX0AJ6yrmVC/Deep-learning-Literature-Review-b-WIP#temp:C:ETM8af1ddbe973447f0b83cd869a)
-3. [Explainability](https://quip-amazon.com/5hX0AJ6yrmVC/Deep-learning-Literature-Review-b-WIP#temp:C:ETM109949479f29430ab236bd62e)
-4. [Domain Adaptation, Transfer Learning and incorporating external knowledge](https://quip-amazon.com/5hX0AJ6yrmVC/Deep-learning-Literature-Review-b-WIP#temp:C:ETM2fe2e0da07a34320af7dbf37f)
-5. [Adversarial attacks due to prompting](https://quip-amazon.com/5hX0AJ6yrmVC/Deep-learning-Literature-Review-b-WIP#temp:C:ETM4357b12cb66e459db419f4e54)
-6. [Challenging evaluation of Deep Learning Models](https://quip-amazon.com/5hX0AJ6yrmVC/Deep-learning-Literature-Review-b-WIP#temp:C:ETM3f724200f54744e38c86f6a82)
-7. [Continued Learning after pre-training on large datasets](https://quip-amazon.com/5hX0AJ6yrmVC/Deep-learning-Literature-Review-b-WIP#temp:C:ETM8d20b24b0344430fbb3e58623) -->
-
-
 
 ## 1. Disinformation, Hallucinations and Reliability of Models
 

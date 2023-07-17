@@ -40,8 +40,6 @@ In this post I will discuss the following:
 - [Derivation](#derivation)
 - [Bayes Optimal Decision](#bayes-optimal-decision) -->
 
----
-
 # Experiment (Trial)
 An experiment (also known as a trial) is a process by which an observation is made. Rolling a dice is a trial, observing the weather is a trial. The outcome of a trial is called an event.
 
