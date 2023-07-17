@@ -64,7 +64,7 @@ Now that we have simplified the RHS, we need to compute the probabilities.
 $$P(w_n|w_{n-1}) = \frac{C(w_{n-1}w_n)}{\sum_w C(w_{n-1}w)}$$
 
 <p align="center">
-    <img src="{{ site.url }}/assets/images/relative-frequency.png" alt="Relative Frequency" width="500" />
+    <img src="{{ site.url }}/ml-notes/assets/images/relative-frequency.png" alt="Relative Frequency" width="500" />
     <br>
     <em class="image-label">Fig 1: Relative Frequency Explained</em>
 </p>

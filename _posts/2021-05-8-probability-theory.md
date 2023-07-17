@@ -68,7 +68,7 @@ A well founded probability space contains:
 Conditional Probability is the heart of [Naive Bayes]() algorithm. Conditional Probability measures the probability of an event given another event has occurred. 
 
 <p align="center">
-    <img src="https://rutumulkar.com/assets/images/cond_prob.png" alt="Image of Conditional Probability" width="400" />
+    <img src="https://rutumulkar.com/ml-notes/assets/images/cond_prob.png" alt="Image of Conditional Probability" width="400" />
     <br>
     <em class="image-label">Fig 1: Conditional Probability</em>
 </p>

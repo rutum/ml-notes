@@ -66,7 +66,7 @@ $z$ is not a legal probability. To make it a probability, $z$ will pass through 
 $$y = \sigma(z) = \frac{1}{(1+e^{-z})}$$
 
 <p align="center">
-    <img src="https://rutumulkar.com/assets/images/sigmoid.jpg" alt="Image of Sigmoid Function" width="400" />
+    <img src="https://rutumulkar.com/ml-notes/assets/images/sigmoid.jpg" alt="Image of Sigmoid Function" width="400" />
     <br>
     <em class="image-label">Fig 1: Sigmoid Function (Image Credit: Wikipedia)</em>
 </p>
