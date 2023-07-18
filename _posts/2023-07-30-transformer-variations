@@ -1,0 +1,41 @@
+---
+layout: page
+title: The Variations and Optimizations for the Transformer Architecture
+tags: transformers 
+categories: [transformers, deep learning, generative AI]
+---
+
+# The Vanilla Transformer 
+## Architecture
+- explain Key, Value and Query matrices
+- explain batch normalization
+- explain dropout
+- try to run the code if you can
+
+https://github.com/leonardoaraujosantos/Transformers/blob/master/Vanila_Transformer.ipynb
+
+## Limitations of the Vanilla Transformer
+### Capturing Long Sequences with Transformers
+- it takes quadratic time to work with long sequences
+### Positional Encoding and improvements
+- what are the limitations of OHE based positional encodings? How are these OHE encodings incorporated into the input of the transformer?
+### Activation Function 
+- which activation function was used? ReLU? 
+### Layer Normalization 
+- layer norm was done after a single layer, but there are several other ways og doing it. What are the limitations of doing it after FF layer? - how is layer norm different from batch norm?
+
+# Transformers for Semantic Embeddings
+- BERT, Roberta, Distilbert, Transformer XL, T5, Backpack models (ACL 2023 https://arxiv.org/pdf/2305.16765.pdf)
+- what was the objective function for each one of the above models? 
+- can the embeddings be fine tuned for donwstream tasks?
+# Transformers for Generative Language Modeling
+- GPT1, GPT2, GPT3, GPT4, LLaMA, Palm, BARD
+
+Rotary Position Embeddings (Rope) -https://paperswithcode.com/method/rope
+https://huggingface.co/docs/transformers/model_doc/roformer - roformer
+https://sh-tsang.medium.com/brief-review-roformer-enhanced-transformer-with-rotary-position-embedding-36f67a619442
+
+# References
+Hewitt et. al., [Backpack Language Models](https://arxiv.org/pdf/2302.07730.pdf), ACL, 2023
+
+https://github.com/leonardoaraujosantos/Transformers/blob/master/Vanila_Transformer.ipynb
