@@ -2,14 +2,20 @@
 layout: page
 title: The Variations and Optimizations for the Transformer Architecture
 tags: transformers 
-categories: [transformers, deep learning, generative AI]
+categories: [transformers, deep learning, generative AI, nlp, positional embeddings, activation functions, layer norm, generative language models, genAI]
 ---
 
 # The Vanilla Transformer 
 ## Architecture
-- explain Key, Value and Query matrices
-- explain batch normalization
+- self-attention mechanism
+    - explain Key, Value and Query matrices
+        - query: As the current focus of attention when being compared to all of the other query preceding inputs. We’ll refer to this role as a query.
+        - Key: In its role as a preceding input being compared to the current focus of attenkey tion. We’ll refer to this role as a key.
+        - Value: And finally, as a value used to compute the output for the current focus of attention - it is dependent on Query and Key
+    To capture these three different roles, transformers introduce weight matrices $$W_Q$$, $$W_K$$, and $$W_V$$.
+- explain batch normalization to address vanishing gradients
 - explain dropout
+- explain semantic embedding for a sentence - CLS - how is CLS used? 
 - try to run the code if you can
 
 https://github.com/leonardoaraujosantos/Transformers/blob/master/Vanila_Transformer.ipynb
@@ -19,15 +25,16 @@ https://github.com/leonardoaraujosantos/Transformers/blob/master/Vanila_Transfor
 - it takes quadratic time to work with long sequences
 ### Positional Encoding and improvements
 - what are the limitations of OHE based positional encodings? How are these OHE encodings incorporated into the input of the transformer?
-### Activation Function 
+### Activation Function and improvements
 - which activation function was used? ReLU? 
-### Layer Normalization 
+### Layer Normalization improvements
 - layer norm was done after a single layer, but there are several other ways og doing it. What are the limitations of doing it after FF layer? - how is layer norm different from batch norm?
 
 # Transformers for Semantic Embeddings
 - BERT, Roberta, Distilbert, Transformer XL, T5, Backpack models (ACL 2023 https://arxiv.org/pdf/2305.16765.pdf)
 - what was the objective function for each one of the above models? 
 - can the embeddings be fine tuned for donwstream tasks?
+
 # Transformers for Generative Language Modeling
 - GPT1, GPT2, GPT3, GPT4, LLaMA, Palm, BARD
 
