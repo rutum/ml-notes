@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Activation Functions 
+title: Activation Functions in Large Language Models
 tags:  
 categories: [LLMs, GeLU, GeGLU]
 ---
