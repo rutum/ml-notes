@@ -3,6 +3,7 @@ layout: page
 title: Activation Functions in Large Language Models
 tags:  
 categories: [LLMs, GeLU, GeGLU]
+author: rutum
 ---
 
 # Activation Functions in Large Language Models
