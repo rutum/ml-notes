@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Pretraining of LLMs 
+title: Pretraining of Large Language Models 
 tags:  
 categories: [generative AI, pretraining, LLMs]
 ---
