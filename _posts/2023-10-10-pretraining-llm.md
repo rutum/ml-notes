@@ -19,12 +19,19 @@ The scale and quantity of data along with how this data is preprocessed is criti
 ### Prefix Decoder Architecture
 ## Detailed Configuration
 ### Normalization Methods
+- LayerNorm
+- RMSNorm
+- DeepNorm
+### Normalization Position
+- Post-LN
+- Pre-LN
+- Sandwich-LN
 ### Activation Functions
 ### Positional Embeddings
 In the transformer architecture, positional embeddings are employed to inject the absolute or relative position information for modeling sequences. 
 - Absolute Position Embeddings
-- Relative Position Embedding
-- Rotary Position Embedding
+- Relative Position Embedding 
+- Rotary Position Embedding ([RoPE](https://arxiv.org/pdf/2310.01924.pdf))
 - ALiBi
 ### Attention and Bias
 - Full Attention 
