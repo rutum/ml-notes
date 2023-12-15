@@ -57,7 +57,9 @@
       {%- if _show_author or _show_date or _pageview -%}
         <ul class="right-col menu">
           {%- if _show_author  -%}
-            <li><i class="fas fa-user"></i> <span>{{ _author.name }}</span></li>
+            <li>
+              <!-- <i class="fas fa-user"></i>  -->
+              <span>{{ _author.name }}</span></li>
           {%- endif -%}
 
           {%- if _show_date -%}
