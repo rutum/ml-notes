@@ -36,15 +36,13 @@
           {%- include snippets/prepend-baseurl.html path=paginator.previous_page_path -%}
           {%- assign _href = __return -%}
           <li><a class="button button--secondary button--circle" href="{{ _href }}">
-            <!-- <i class="fas fa-angle-left"></i> -->
-            <!-- <i class="fa-solid fa-chevron-left"></i> -->
-            <
+            <i class="fas fa-angle-left"></i>
+            <!-- < -->
           </a></li>
         {%- else -%}
           <li><div class="button button--secondary button--circle disabled">
-            <!-- <i class="fas fa-angle-left"></i> -->
-            <!-- <i class="fa-solid fa-chevron-left"></i> -->
-            <
+            <i class="fas fa-angle-left"></i>
+            <!-- < -->
           </div></li>
         {%- endif -%}
 
@@ -89,13 +87,13 @@
           {%- include snippets/prepend-baseurl.html path=paginator.next_page_path -%}
           {%- assign _href = __return -%}
           <li><a class="button button--secondary button--circle" href="{{ _href }}">
-            <!-- <i class="fas fa-angle-right"></i> -->
-            >
+            <i class="fas fa-angle-right"></i>
+            <!-- > -->
           </a></li>
         {%- else -%}
           <li><div class="button button--secondary button--circle disabled">
-            <!-- <i class="fas fa-angle-right"></i> -->
-            >
+            <i class="fas fa-angle-right"></i>
+            <!-- > -->
           </div></li>
         {%- endif -%}
       </ul>
